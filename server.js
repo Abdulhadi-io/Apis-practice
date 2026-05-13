@@ -3,7 +3,8 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Shuker backend chal raha he warna me iski >?//[]");
+    res.send("Shuker backend chal raha he 
+             ");
 });
 
 app.get("/api/game",(req, res) => {
